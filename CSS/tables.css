@@ -1,0 +1,31 @@
+.scroll {
+    overflow: auto;
+    max-height: 400px;
+    margin: auto;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.tabla-container {
+    margin: 20px 0;
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.estado-consumio {
+    color: #28a745;
+    font-weight: bold;
+}
+
+.estado-no-consumio {
+    color: #dc3545;
+    font-weight: bold;
+}
+
+@media (max-width: 768px) {
+    .scroll {
+        padding: 10px;
+    }
+}

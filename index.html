@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sistema de Comedor</title>
+    
+    <!-- Importar fuente Roboto -->
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+    
+    <!-- Font Awesome para íconos -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    
+    <!-- Importar archivos CSS en orden -->
+    <link rel="stylesheet" href="CSS/base.css">
+    <link rel="stylesheet" href="CSS/dashboard.css">
+    <link rel="stylesheet" href="CSS/footer.css">
+</head>
+<body>
+    <main>
+        <!-- Hero Section -->
+        <section class="hero">
+            <h1>Sistema de Comedor</h1>
+            <div class="hero-content">
+                
+                <p class="subtitle">Gestión eficiente de servicios alimentarios</p>
+            </div>
+        </section>
+
+        <!-- Dashboard Section -->
+        <div class="container">
+            <div class="dashboard">
+                <div class="dashboard-card">
+                    <h3>Registros</h3>
+                    <p>Gestionar registros de comidas</p>
+                    <a href="PHP/registros.php" class="button">Acceder</a>
+                </div>
+
+                <div class="dashboard-card">
+                    <h3>Empleados</h3>
+                    <p>Administrar empleados</p>
+                    <a href="PHP/agregar.php" class="button">Acceder</a>
+                </div>
+
+                <div class="dashboard-card">
+                    <h3>Empleados eliminados</h3>
+                    <p>Gestinar la eliminacion de empleados</p>
+                    <a href="PHP/eliminados.php" class="button">Acceder</a>
+                </div>
+
+                    <div class="dashboard-card">
+                    <h3>Comedor Check in</h3>
+                    <p>Hacer check in con el numero de empledo</p>
+                    <a href="PHP/check_in_simple.php" class="button">Acceder</a>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-content">
+            <div class="footer-section">
+                <h4>Sobre Nosotros</h4>
+                <p>Sistema de gestión de comedor empresarial, diseñado para optimizar y controlar el servicio de alimentación.</p>
+            </div>
+            <div class="footer-section">
+                <h4>Enlaces Rápidos</h4>
+                <p><a href="PHP/registros.php">Registros</a></p>
+                <p><a href="PHP/agregar.php">Empleados</a></p>
+                <p><a href="PHP/eliminados.php">Eliminados</a></p>
+                <p><a href="PHP/check_in_simple.php">Check in</a></p>
+            </div>
+            <div class="footer-section">
+                <h4>Contacto</h4>
+                <p>Email: soporte@comedor.com</p>
+                <p>Tel: (123) 456-7890</p>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2024 Sistema de Comedor. Todos los derechos reservados.</p>
+        </div>
+    </footer>
+</body>
+</html>

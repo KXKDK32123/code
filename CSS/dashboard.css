@@ -1,0 +1,56 @@
+.hero {
+    background: linear-gradient(135deg, #004085 0%, #0056b3 100%);
+    padding: 2rem;
+    text-align: center;
+    color: white;
+    margin-bottom: 2rem;
+}
+
+.dashboard {
+    display: flex;
+    justify-content: space-between;
+    align-items: stretch;
+    gap: 1.5rem;
+    padding: 2rem 0;
+}
+
+.dashboard-card {
+    flex: 1;
+    min-width: 200px;
+    background: white;
+    padding: 1.5rem;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    transition: transform 0.3s ease;
+}
+
+.dashboard-card:hover {
+    transform: translateY(-5px);
+}
+
+@media (max-width: 1024px) {
+    .dashboard {
+        flex-wrap: wrap;
+    }
+
+    .dashboard-card {
+        flex: 1 1 calc(50% - 1rem);
+    }
+}
+
+@media (max-width: 640px) {
+    .dashboard-card {
+        flex: 1 1 100%;
+    }
+}
+
+@media (max-width: 768px) {
+    .hero-content h1 {
+        font-size: 2rem;
+    }
+
+    .dashboard {
+        grid-template-columns: 1fr;
+    }
+}
